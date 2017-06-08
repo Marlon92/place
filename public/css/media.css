@@ -1,0 +1,59 @@
+/* iPads */
+@media only screen and (min-width: 1025px) {
+  body #container-services #layout-services article {
+    width: 25% !important;
+    margin: 1em !important;
+  }
+
+@media only screen and (min-width: 768px) {
+   header nav {
+    display: inline-block !important;
+    margin-right: 5%;
+  }
+  header nav ul li {
+    display: inline-block;
+    line-height: 0em;
+  }
+  header #layout-header {
+    /* left: 0; */
+    /* position: fixed; */
+    text-align: right;
+    /* top: 0; */
+    padding: 1.7em 3em;
+    /* max-width: 100%; */
+  }
+  /* rgba(253,253,254,1) */
+  header #layout-header #container-logo {
+    width: 18%;
+    float: left;
+    cursor: pointer;
+  }
+  header nav ul {
+    margin: 0.8em 0 0 0 !important;
+  }
+  header nav ul li a{
+    color: #333;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    transition: all 0.4s ease;
+    font-weight: 400;
+    position: relative;
+  }
+  header nav ul li a:hover {
+    color: #6670A7;
+  }
+  header div#icon-menu {
+    display: none !important;
+  }
+  body > div > header {
+    height: 100px !important;
+  }
+ 
+  body footer {
+    text-align: center !important;
+  }
+  body footer > hr  {
+    display: none;
+  }
+}

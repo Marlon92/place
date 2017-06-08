@@ -1,0 +1,128 @@
+/* 0 to 768 */
+/* Cabecera */
+
+body *::selection {
+	background: #6670A7;
+	color: #fff;
+}
+body {
+	max-width: 100%;
+}
+header{
+	padding: 54px;
+	border: solid #FFF 2px;
+	border-radius: 2%;
+}
+
+header ul li a {
+	font-weight: 300;
+}
+header #layout-header {
+	background: #FDFDFD;
+	padding: 1em;
+	box-shadow: 1px 1px 10px rgba(170, 171, 171, 0.57);
+	z-index: 99999;
+	text-align: left;
+	width: 100%;
+}
+#password{
+width:100%;
+}
+
+header #container-header-top {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99999;
+}
+header #layout-header #container-logo {
+	width: 50%;
+}
+header #layout-header #icon-menu {
+	color: #4A4A4A;
+	text-align: right;
+	width: 40%;
+}
+header #layout-header label{
+	color: #9A9A9A;
+	font-size: 1.7rem;
+	cursor: pointer;
+}
+header #history-tikalopers {
+	color: #fff;
+	padding: 2em 2em;
+	margin-top: 14%;
+}
+header #history-tikalopers h2 {
+	font-weight: normal;
+	font-size: 1.6rem;
+}
+
+
+
+footer {
+	background: #343434;
+	padding: 1em;
+	color: #fff;
+}
+
+footer section#suscribe h3 {
+	text-align: center;
+}
+
+footer section#suscribe form {
+	text-align: center;
+}
+footer section#suscribe form label {
+	font-size: 0.9em;
+}
+footer section#suscribe form input {
+	border: none ;
+	padding: 0.2em;
+	color: #444;
+}
+
+footer #our-services {
+	margin-bottom: 1em;
+}
+footer p {
+	font-size: 1.2em;
+	padding: 0.4em 0;
+}
+footer #our-services p {
+	font-size: 1em;
+	font-weight: 300;
+}
+footer a {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	margin-left: 0.3em;
+	font-size: 0.8em;
+}
+footer button {
+	background: #4DB6AC;
+	border: 0;
+	color: #fff;
+	padding: 0.5em 1em;
+	outline: none;
+}
+
+img{
+margin: -1.4em 4em;
+}
+
+.bodyinicio {
+  background-image: url(../img/compu.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+}
+@media only screen and (max-width: 467px) {
+  .bodyinicio {
+    background-image: url(../img/compu.png);
+  }
+	}
